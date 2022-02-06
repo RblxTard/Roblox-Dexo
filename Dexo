@@ -776,4 +776,4 @@ end)
     end)
     
     local CreditsSection = Window:NewTab("Credits")
-    local CreditsSection = Main:NewSection("Made By 11s#0001")
+    local CreditsSection = CreditsSection:NewSection("Made By 11s#0001")
