@@ -1244,3 +1244,4 @@ end
 end)()
      AniamtionsSection:NewButton("Hats(Copy To Clipboard)", "Hats", function()
         copyclipboard("https://pastebin.com/hrNaqTpd")
+     end)
