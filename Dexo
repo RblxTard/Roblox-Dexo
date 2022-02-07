@@ -1,9 +1,12 @@
-
+setclipboard("https://discord.gg/zHWdsMQZwF")
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Default", "Synapse")
 -- Main
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
+MainSection:NewButton("We Already invited you to our discord server!(click to get re-invites also discord link copied to clipboard)", "Get Admin!", function()
+    setclipboard("https://discord.gg/zHWdsMQZwF")
+end)
 MainSection:NewButton("Admin", "Get Admin!", function()
     wait(.2)
     whitelist = {game.Players.LocalPlayer.Name,"Vortexturize","C0poration"} -- put admin names here
